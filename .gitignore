@@ -1,0 +1,17 @@
+# Virtual environment (never commit this; it's huge and machine-specific)
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter autosave copies
+.ipynb_checkpoints/
+
+# Editor / OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
