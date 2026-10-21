@@ -14,3 +14,4 @@
 | | Submission - [benchmark.csv](results/lab03/benchmark.csv) |
 | | Submission - [benchmark_summary.csv](results/lab03/benchmark_summary.csv) |
 | | Submission - [benchmark_expansions.png](results/lab03/benchmark_expansions.png) |
+| 2026/10/21 | Lab 04 - [Fuzzy Logic (result)](all_results/lab04) |
