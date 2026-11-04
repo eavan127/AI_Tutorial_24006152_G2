@@ -32,3 +32,10 @@
 | | Submission - [noise_robustness.csv](results/lab05/noise_robustness.csv) |
 | | Submission - [noise_robustness.png](results/lab05/noise_robustness.png) |
 | | Submission - [confusion_matrices.png](results/lab05/confusion_matrices.png) |
+| 2026/11/04 | Lab 06 - [Handwriting OCR Evaluation (code)](all_experiments/lab06_handwriting_ocr_worked.py) |
+| | Submission - [metrics.csv](results/lab06/metrics.csv) |
+| | Submission - [predictions.csv](results/lab06/predictions.csv) |
+| | Submission - [error_analysis.csv](results/lab06/error_analysis.csv) |
+| | Submission - [sample_grid.png](results/lab06/sample_grid.png) |
+| | Submission - [ocr_failures.png](results/lab06/ocr_failures.png) |
+| | Submission - [preprocessed images](results/lab06/preprocessed) |
