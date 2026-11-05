@@ -8,7 +8,8 @@
 | | Submission - [metrics.csv](results/lab01/metrics.csv) |
 | | Submission - [route_comparison.png](results/lab01/route_comparison.png) |
 | 2026/10/08 | Lab 02 - [Informed Search (code)](all_experiments/lab02_informed_search.py) |
-| | Submission - [Assignment 2 (Word)](results/lab02/Assignment%202_week05.docx) |
+| | Assignment - [Assignment 2 (Word)](Lab02_Assignment/Assignment%202_week05.docx) |
+| | Assignment - [Evidence](Lab02_Assignment/evidence) |
 | 2026/10/14 | Lab 03 - [Search Engineering (code)](all_experiments/lab03_search_engineering.py) |
 | | Lab 03 - [Command-line tool (utils/\_\_main\_\_.py)](all_experiments/utils/__main__.py) |
 | | Submission - [benchmark.csv](results/lab03/benchmark.csv) |
@@ -39,3 +40,8 @@
 | | Submission - [sample_grid.png](results/lab06/sample_grid.png) |
 | | Submission - [ocr_failures.png](results/lab06/ocr_failures.png) |
 | | Submission - [preprocessed images](results/lab06/preprocessed) |
+| | Assignment - [Lab 06 OCR Assignment (PDF)](Lab06_Assignment/Lab06_OCR_Assignment_EavanTan.pdf) |
+| | Assignment - [Lab 06 OCR Assignment (Word)](Lab06_Assignment/Lab06_OCR_Assignment_EavanTan.docx) |
+| | Evidence - [results_table.png](Lab06_Assignment/evidence/results_table.png) |
+| | Evidence - [ocr_failures.png](Lab06_Assignment/evidence/ocr_failures.png) |
+| | Evidence - [sample_grid.png](Lab06_Assignment/evidence/sample_grid.png) |
