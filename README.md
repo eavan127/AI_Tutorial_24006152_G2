@@ -4,6 +4,7 @@
 
 | Date | Lab Tasks |
 | :---: | --- |
+| | **[Assignments (all assignments)](Assignments)** |
 | 2026/09/30 | Lab 01 - [Search Foundations (code)](all_experiments/lab01_search_foundations.py) |
 | | Submission - [metrics.csv](results/lab01/metrics.csv) |
 | | Submission - [route_comparison.png](results/lab01/route_comparison.png) |
@@ -57,6 +58,3 @@
 | 2026/11/11 | Assignment - [Reasoning, Semantic Network and NLP (PDF)](Assignments/Assignment_Reasoning_Semantic_NLP/AI_Assignment_EavanTan.pdf) |
 | | Assignment - [Reasoning, Semantic Network and NLP (Word)](Assignments/Assignment_Reasoning_Semantic_NLP/AI_Assignment_EavanTan.docx) |
 | | Assignment - [semantic_network.png](Assignments/Assignment_Reasoning_Semantic_NLP/semantic_network.png) |
-| | Assignment - [semantic_network.drawio (source)](Assignments/Assignment_Reasoning_Semantic_NLP/semantic_network.drawio) |
-
-**All assignments** are in the [Assignments](Assignments) folder.
