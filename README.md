@@ -45,3 +45,12 @@
 | | Evidence - [results_table.png](Lab06_Assignment/evidence/results_table.png) |
 | | Evidence - [ocr_failures.png](Lab06_Assignment/evidence/ocr_failures.png) |
 | | Evidence - [sample_grid.png](Lab06_Assignment/evidence/sample_grid.png) |
+| 2026/11/11 | Lab 07 - [Airline Tweet Sentiment (code)](all_experiments/lab07_airline_sentiment.py) |
+| | Submission - [metrics.csv](results/lab07/metrics.csv) |
+| | Submission - [validation_results.csv](results/lab07/validation_results.csv) |
+| | Submission - [per_class_metrics.csv](results/lab07/per_class_metrics.csv) |
+| | Submission - [per_airline_f1.csv](results/lab07/per_airline_f1.csv) |
+| | Submission - [error_analysis.csv](results/lab07/error_analysis.csv) |
+| | Submission - [test_predictions.csv](results/lab07/test_predictions.csv) |
+| | Submission - [split.csv](results/lab07/split.csv) |
+| | Submission - [confusion_matrix.png](results/lab07/confusion_matrix.png) |
