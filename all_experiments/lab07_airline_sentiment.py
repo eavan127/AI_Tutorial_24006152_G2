@@ -17,6 +17,27 @@ from sklearn.metrics import (accuracy_score, precision_recall_fscore_support,
 LABELS = ["negative", "neutral", "positive"]
 SEED = 42
 
+# Locate project root, whether VS Code starts in the project folder
+# or in all_experiments.
+_candidates = [
+    Path.cwd(),
+    Path.cwd().parent,
+    Path(__file__).resolve().parent,
+    Path(__file__).resolve().parent.parent,
+]
+
+ROOT = next(
+    (p.resolve() for p in _candidates if (p / "all_datasets").is_dir()),
+    Path(__file__).resolve().parent.parent
+)
+
+DATA = ROOT / "all_datasets"
+RESULTS = ROOT / "results" / "lab07"
+
+RESULTS.mkdir(parents=True, exist_ok=True)
+
+DATA_FILE = DATA / "lab07-Tweets.csv"
+
 def clean_text(x):
     x = re.sub(r"https?://\S+|www\\.\S+", " URL ", str(x), flags=re.I)
     x = re.sub(r"@\w+", " USER ", x)
@@ -35,13 +56,20 @@ def metrics(name, y, pred):
                                  average="macro", zero_division=0)}
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--data", default="all_datasets/lab07-Tweets.csv")
-    ap.add_argument("--out", default="lab8_results")
-    args = ap.parse_args()
-    out = Path(args.out); out.mkdir(parents=True, exist_ok=True)
-    raw = pd.read_csv(args.data)
 
+    if not DATA_FILE.exists():
+        raise FileNotFoundError(
+            f"Dataset not found: {DATA_FILE}"
+        )
+
+    out = RESULTS
+
+    print("Project root:", ROOT)
+    print("Dataset:", DATA_FILE)
+    print("Results directory:", RESULTS)
+
+    raw = pd.read_csv(DATA_FILE)
+    
     # Standardise common CSV header variants.
     mapping = {}
     for c in raw.columns:
