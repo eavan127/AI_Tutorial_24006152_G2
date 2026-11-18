@@ -5,7 +5,7 @@ and returns to A. Uses the fictional delivery distance table from the
 assignment.
 
 Run from the repository root:
-    python "Submissions/GA Assignment/ga_delivery_route.py"
+    python Submissions/Lab09_Assignment/ga_delivery_route.py
 """
 import random
 
