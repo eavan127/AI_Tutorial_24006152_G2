@@ -2,15 +2,13 @@
 
 **Author** - Eavan Tan (24006152), Group CS_G2
 
-Lab work and assignments for the Artificial Intelligence course. Labs start in week 3 (Lab 01 is setup), so the lab number is the week number minus two.
-
 ## Submissions
 
 The five submitted assignments, in the order given by the lab tutor. Each folder holds the report together with the proof (screenshots and figures) and Python files the assignment asks for.
 
 | No. | Week | Lab | Assignment | Folder | Contents |
 | :---: | :---: | :---: | --- | --- | --- |
-| 1 | 4 | Lab 02 | Lab results: `metrics.csv` and `route_comparison.png` | [Lab02_Assignment](Submissions/Lab02_Assignment) | Screenshots of the two results |
+| 1 | 4 | Lab 02 | Lab results: `metrics.csv` and `route_comparison.png` | [Lab02_Assignment](Submissions/Lab02_Assignment) | `metrics_screenshot.png`, `route_comparison_screenshot.png` |
 | 2 | 5 | Lab 03 | Assignment 2: questions on BFS, DFS, UCS, GBFS and A* | [Lab03_Assignment](Submissions/Lab03_Assignment) | `Assignment 2_week05` (PDF and Word) |
 | 3 | 9 | Lab 07 | Handwriting OCR Evaluation | [Lab07_Assignment](Submissions/Lab07_Assignment) | Report (PDF and Word), `evidence/` with the results table, OCR failures and sample images |
 | 4 | 10 | Lab 08 | Logical Reasoning, Semantic Networks and NLP | [Lab08_Assignment](Submissions/Lab08_Assignment) | Report (PDF and Word), `semantic_network.png` |
